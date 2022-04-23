@@ -2,6 +2,7 @@ import Frame1 from "../assets/Frame1.png";
 import Frame from "../assets/Frame.png";
 import Framee from "../assets/Framee.png";
 import Group2 from "../assets/Group2.png";
+import Group1 from "../assets/Group1.png";
 import Group19 from "../assets/Group19.png";
 import Group20 from "../assets/Group20.png";
 import Group21 from "../assets/Group21.png";
@@ -33,4 +34,5 @@ export default {
   griditem1,
   Frame,
   Framee,
+  Group1,
 };

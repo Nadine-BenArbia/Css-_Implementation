@@ -1,5 +1,6 @@
 import React from "react";
 import Timer from "../components/CountDown/Timer";
+import Footer from "../components/Layouts/Footer/Footer";
 
 import Header from "../components/Layouts/Header/Header";
 import Navbar from "../components/Layouts/Navbar/Navbar";
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <RoadMap />
       <TeamGrid />
       <Timer />
+      <Footer />
     </div>
   );
 };

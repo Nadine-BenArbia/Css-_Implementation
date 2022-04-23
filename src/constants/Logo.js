@@ -11,6 +11,11 @@ export const Logo1 = styled("img")``;
 Logo1.defaultProps = {
   src: images.RichBoy,
 };
+export const LogoBom = styled("img")``;
+
+LogoBom.defaultProps = {
+  src: images.Star1,
+};
 export const Logo2 = styled("img")``;
 
 Logo2.defaultProps = {
@@ -50,4 +55,9 @@ export const GridLogoSide2 = styled("img")``;
 
 GridLogoSide2.defaultProps = {
   src: images.Group27,
+};
+export const Background = styled("img")``;
+
+Background.defaultProps = {
+  src: images.Group1,
 };
