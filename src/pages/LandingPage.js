@@ -3,6 +3,7 @@ import Timer from "../components/CountDown/Timer";
 
 import Header from "../components/Layouts/Header/Header";
 import Navbar from "../components/Layouts/Navbar/Navbar";
+import TeamGrid from "../components/Layouts/TeamGrid/TeamGrid";
 import RoadMap from "../components/RoadMap/RoadMap";
 
 const LandingPage = () => {
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <Navbar />
       <Header />
       <RoadMap />
+      <TeamGrid />
       <Timer />
     </div>
   );

@@ -1,20 +1,32 @@
 import React from "react";
 
-import { LogoHeader } from "../../../constants/HeaderLogo";
+import {
+  First,
+  Forth,
+  HeaderText,
+  Second,
+  StyledHeader,
+  Third,
+  Wrapper,
+} from "./HeaderStyle";
 
-import { StyledHeader } from "./HeaderStyle";
-import { StyledText } from "../../../constants/paragraph";
 import { ButtonStyleHeader } from "./ButtonStyleHeader";
 
 const Header = () => {
   return (
     <StyledHeader>
-      <LogoHeader />
-      <StyledText>
+      <Wrapper>
+        <First />
+        <Second />
+      </Wrapper>
+      <Third />
+      <Forth />
+
+      <HeaderText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
         dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
         consectetur adipiscing elit.{" "}
-      </StyledText>
+      </HeaderText>
       <ButtonStyleHeader>Mint a Rich Boy</ButtonStyleHeader>
     </StyledHeader>
   );
