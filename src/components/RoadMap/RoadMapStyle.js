@@ -6,7 +6,6 @@ import { GridLogo2, GridLogoSide1, GridLogoSide2 } from "../../constants/Logo";
 export const RoadMapStyle = styled("div")`
   display: flex;
   flex-direction: column;
-
   background-color: ${colors.background};
 `;
 export const StyledTextGrid = styled("StyledText")`
@@ -30,19 +29,27 @@ export const H1 = styled.h1`
 `;
 
 export const ContentBox2 = styled("ContentBox2")`
+  display: flex;
   margin: 10%;
 `;
+
 export const Content3Logo = styled(GridLogo2)`
-  display: block;
+  display: flex;
   width: 50%;
   padding-top: 6rem;
   margin-left: 5rem;
   height: 196px;
   left: 1333px;
   top: 1483px;
+  @media only screen and (min-width: 600px) {
+    display: none;
+  }
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
 `;
 export const GridLogoSideBar0 = styled(GridLogo2)`
-  display: block;
+  display: flex;
   position: inherit;
   width: 110%;
   margin-right: 3rem;
@@ -55,7 +62,7 @@ export const GridLogoSideBar1 = styled(GridLogoSide1)`
   margin-left: -3rem;
 `;
 export const GridLogoSideBar2 = styled(GridLogoSide2)`
-  display: block;
+  display: flex;
   width: 40%;
   margin-left: 1rem;
   padding-top: 1rem;
