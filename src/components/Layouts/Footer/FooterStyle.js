@@ -32,3 +32,6 @@ export const StyledPfooter = styled(StyledText)`
   width: 100%;
   margin-bottom: 2rem;
 `;
+export const Hr = styled.hr`
+  width: 1rem;
+`;

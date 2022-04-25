@@ -12,3 +12,12 @@ export const PrimaryButton = styled("button")`
   border: solid ${colors.white};
   outline: solid ${colors.red};
 `;
+export const SecondaryButton = styled("button")`
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 400;
+  text-align: inherit;
+  background-color: ${colors.red};
+
+  padding: 0.5em 1em;
+  color: ${colors.white};
+`;
