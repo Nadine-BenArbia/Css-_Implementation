@@ -4,6 +4,10 @@ import { colors } from "../../../../../constants/colors";
 import images from "../../../../../constants/images";
 import { Background, Logo2, LogoBom } from "../../../../../constants/Logo";
 
+export const Body = styled("div")`
+  justify-content: space-around;
+  display: flex;
+`;
 export const Div = styled.div`
   display: flex;
   flex-direction: row;
@@ -35,18 +39,20 @@ export const Wrapper = styled("div")`
 `;
 export const LogoBomHeader = styled(LogoBom)`
   position: absolute;
+
   height: 16rem;
-  top: -3rem;
+  top: -2rem;
   left: 0;
-  width: 108%;
+  width: 100%;
   @media (max-width: 600px) {
     position: absolute;
   }
 `;
 export const Second2 = styled(Logo2)`
   position: relative;
-  margin-left: 11%;
-  width: 81%;
+
+  margin-left: -9%;
+  width: 76%;
   border: solid;
   @media (max-width: 600px) {
     position: absolute;
@@ -60,14 +66,7 @@ export const BodyContainer = styled("div")`
     position: absolute;
   }
 `;
-export const Body = styled("div")`
-  display: flex;
-  flex-direction: row;
-  background-color: ${colors.background};
-  @media (max-width: 600px) {
-    position: absolute;
-  }
-`;
+
 export const Pricing = styled("div")`
   display: flex;
   @media (max-width: 600px) {
@@ -79,7 +78,8 @@ export const PrincingContainer = styled.div`
   padding: 6%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+
+  justify-content: space-evenly;
   background-color: ${colors.background};
 `;
 export const ButtonStyleHeader = styled.div`
@@ -89,21 +89,17 @@ export const ButtonStyleHeader = styled.div`
 `;
 export const Minting = styled("div")`
   display: flex;
+  flex-direction: column;
 
   @media (max-width: 600px) {
     position: absolute;
   }
 `;
-export const PricingContainer = styled("div")`
-  display: flex;
-  background-image: url(${Background});
-  @media (max-width: 600px) {
-    position: absolute;
-  }
-`;
+
 export const DivPricing = styled("div")`
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   justify-content: space-between;
   @media (max-width: 600px) {
     position: absolute;

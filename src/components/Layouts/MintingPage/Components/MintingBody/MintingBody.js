@@ -22,28 +22,29 @@ import {
 const MintingBody = () => {
   return (
     <>
-      <Wrapper>
-        <Div>
-          <LogoBomHeader />
-          <Second2 />
-        </Div>
-      </Wrapper>
-      <Minting>
-        <PrincingContainer>
-          <Span>Price</Span>
-          <Span>Max</Span>
-          <Span>Supply</Span>
-        </PrincingContainer>
-        <Body>
-          <Span>amount</Span>
+      <Body>
+        <Wrapper>
+          <Div>
+            <LogoBomHeader />
+            <Second2 />
+          </Div>
+        </Wrapper>
+        <Minting>
+          <PrincingContainer>
+            <Span>Price</Span>
+            <Span>Max</Span>
+            <Span>Supply</Span>
+          </PrincingContainer>
+
           <DivPricing>
+            <Span>amount</Span>
             <Span>-1+</Span>
           </DivPricing>
-        </Body>
-        <ButtonStyleHeader>
-          <PrimaryButton>Mint a Rich Boy</PrimaryButton>
-        </ButtonStyleHeader>
-      </Minting>
+        </Minting>
+      </Body>
+      <ButtonStyleHeader>
+        <PrimaryButton>Mint a Rich Boy</PrimaryButton>
+      </ButtonStyleHeader>
     </>
   );
 };
